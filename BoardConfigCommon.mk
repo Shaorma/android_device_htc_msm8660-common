@@ -23,7 +23,7 @@ TARGET_NO_BOOTLOADER := true
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/htc/shooteru
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := sm-arm-eabi-4.8
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.7.3_cortex-a8
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8660
@@ -108,9 +108,6 @@ TARGET_BOOTANIMATION_PRELOAD := true
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
-
-#Legacy recovery
-SKIP_SET_METADATA := true
 
 # Hardware tunables
 BOARD_HARDWARE_CLASS := device/htc/msm8660-common/cmhw/
